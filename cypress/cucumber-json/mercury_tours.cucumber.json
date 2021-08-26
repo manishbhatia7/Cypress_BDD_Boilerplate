@@ -1,0 +1,103 @@
+[
+  {
+    "description": "    As a user i want to register and use the travel website functions.",
+    "keyword": "Feature",
+    "name": "Practice functions of the application",
+    "line": 1,
+    "id": "practice-functions-of-the-application",
+    "tags": [],
+    "uri": "mercury_tours.feature",
+    "elements": [
+      {
+        "id": "practice-functions-of-the-application;as-a-user-i-want-to-register-on-the-website",
+        "keyword": "Scenario",
+        "line": 5,
+        "name": "As a user i want to register on the website",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "I open the mercury tours website",
+            "result": {
+              "status": "passed",
+              "duration": 14498000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "I enter username as \"admin\"",
+            "result": {
+              "status": "passed",
+              "duration": 399000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "I enter password as \"admin\"",
+            "result": {
+              "status": "passed",
+              "duration": 293000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "I click on submit button",
+            "result": {
+              "status": "passed",
+              "duration": 6341000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "I should be able to successfully login to website.",
+            "result": {
+              "status": "passed",
+              "duration": 57000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "practice-functions-of-the-application;as-a-user-i-want-to-log-off-after-sucessful-login",
+        "keyword": "Scenario",
+        "line": 12,
+        "name": "As a user i want to log off after sucessful login",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 13,
+            "name": "I click on signoff link",
+            "result": {
+              "status": "passed",
+              "duration": 1115000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 14,
+            "name": "I should be redirected successfully",
+            "result": {
+              "status": "passed",
+              "duration": 36000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
